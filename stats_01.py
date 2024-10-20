@@ -9,4 +9,5 @@ def average_inflammation():
 	for row_mean in numpy.mean(data, axis=1):
 		print(row_mean)
 
-
+if __name__ == '__main__':
+	average_inflammation()
